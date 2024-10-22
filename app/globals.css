@@ -6,9 +6,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* color: #011006ee; */
 }
 
+/* Sidebar Nav had issues with the rounded lg so i had to add this */
 .sidebar-border {
   border-radius: 15px;
 }
