@@ -17,7 +17,11 @@ const config: Config = {
 			green: {
 				1: '#22c55e',
 			},
+			sky: {
+				1: '#3f8b4bea'
+			}
   		},
+
 		backgroundImage: {
 			'hero': "url('/images/banner-hero.jpg')",
 		},
