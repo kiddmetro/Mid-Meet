@@ -51,6 +51,7 @@ const MeetingTypeList = () => {
          className = 'text-center'
          buttonText = 'Start Meeting'
          handleClick = {createMeeting}
+         title="Start an Instant Meeting"
          
          />
     </section>
