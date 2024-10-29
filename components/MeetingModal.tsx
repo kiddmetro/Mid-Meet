@@ -10,6 +10,7 @@ import {
   } from "@/components/ui/dialog"
 import Image from 'next/image';
 import { cn } from '@/lib/utils';
+import { Button } from './ui/button';
   
 
 
@@ -41,6 +42,17 @@ const MeetingModal = ({
                     </div>
                 )}
                 <h1 className= {cn('text-3xl font-bold leading-[42px]')}>{title}</h1>
+                {children}
+                <Button className='bg-green-1 focus-visible:ring-0 focus-visible:ring-offset-0' onClick={handleClick}> 
+                    {buttonIcon && (
+                        <Image src={buttonIcon}
+                        alt='button icon'
+                        width={13}
+                        height={13}
+                        />
+                    )}
+                    {buttonText || 'Schedule Meeting'} 
+                '</Button>
             </div>
             
         </DialogContent>
