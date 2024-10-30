@@ -9,7 +9,9 @@ const MeetingTypeList = () => {
     const router = useRouter()
     const [meetingState, setMeetingState] = useState<'isScheduleMeeting' | 'isJoiningMeeting' | 'isInstantMeeting'>()
 
-    const createMeeting = () => {}
+    const createMeeting = () => {
+
+    }
 
   return (
     <section className='grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-4'>
@@ -18,7 +20,7 @@ const MeetingTypeList = () => {
             title = 'New Meeting'
             description = 'Start an Instant meeting'
             handleClick = {() => setMeetingState('isInstantMeeting')}
-            className = 'bg-orange-1'
+            className = 'bg-pink-1'
          />
 
         <HomeCard

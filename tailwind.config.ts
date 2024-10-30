@@ -20,8 +20,8 @@ const config: Config = {
 			sky: {
 				1: '#3f8b4bea'
 			},
-			orange: {
-				1: '#FF742E',
+			pink: {
+				1: '#be18a5',
 			},
 			purple: {
 				1: '#830EF9',
