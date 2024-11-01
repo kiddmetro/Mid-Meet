@@ -26,6 +26,7 @@ const StreamVideoProvider = ({children}: {children: ReactNode}) => {
             },
             tokenProvider,
         });
+        console.log("StreamVideoClient initialized with:", client);
 
         setvideoClient(client);
         
