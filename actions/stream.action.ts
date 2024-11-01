@@ -11,8 +11,8 @@ export const tokenProvider = async () => {
     const user = await currentUser();
 
     if(!user) throw new Error("User is not logged in");
-    if(!apiKey) throw new Error("Missing Stream API Key");
-    if(!apiSecret) throw new Error("Missing Stream API Secret");
+    if(!apiKey) throw new Error("Missing API Key");
+    if(!apiSecret) throw new Error("Missing API Secret");
 
     const client = new StreamClient(apiKey, apiSecret);
 

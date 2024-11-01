@@ -46,7 +46,9 @@ const MeetingTypeList = () => {
 
         setCallDetails(call)
 
-        if(!)
+        if(!values.description){
+          router.push(`/meeting/${call.id}`)
+        }
       }catch(error){
         console.log(error)
       }
