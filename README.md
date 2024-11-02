@@ -2,6 +2,8 @@
 
 Mid Meet is an online video conferencing platform designed to facilitate instant meetings and scheduled sessions seamlessly. Developed with modern web technologies, it uses Next.js as the core framework, Shadcn for the UI components, Stream for video conferencing, and Clerk for user authentication and management.
 
+# Screenshots
+
 # Note
 This project is a work in progress. Certain features may not be fully implemented.
 
@@ -19,15 +21,21 @@ This project is a work in progress. Certain features may not be fully implemente
 
 # Installation
 1. Clone the repository:
-git clone https://github.com/your-username/mid-meet.git
+```
+git clone https://github.com/kiddmetro/mid-meet.git
 cd mid-meet
+```
 
 2. Install dependencies:
+```
 npm install
+```
 
 3. Set up environment variables:
 Create a .env.local file in the root directory:
+```
 touch .env.local
+```
 Add the necessary environment variables to the .env.local file as shown below.
 Environment Variables
 In the .env.local file, add the following variables:
