@@ -31,28 +31,22 @@ touch .env.local
 Add the necessary environment variables to the .env.local file as shown below.
 Environment Variables
 In the .env.local file, add the following variables:
+```*Clerk API Keys
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
+CLERK_SECRET_KEY=<your_clerk_secret_key>
 
-env
-Copy code
-* Clerk API Keys
-> NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
-``` CLERK_SECRET_KEY=<your_clerk_secret_key>
-
-# Clerk Routes
+* Clerk Routes
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
 # Stream API Keys
 NEXT_PUBLIC_STREAM_API_KEY=<your_stream_api_key>
-STREAM_API_SECRET=<your_stream_api_secret>
+STREAM_API_SECRET=<your_stream_api_secret>```
 Replace <your_clerk_publishable_key>, <your_clerk_secret_key>, <your_stream_api_key>, and <your_stream_api_secret> with your actual Clerk and Stream API keys and secrets.
 
-Run the Project
+4. Run the Project
 After setting up environment variables, start the development server:
-
-bash
-Copy code
-npm run dev
+```npm run dev```
 # or
 yarn dev
 Visit http://localhost:3000 to access the application.
