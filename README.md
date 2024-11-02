@@ -32,7 +32,7 @@ Add the necessary environment variables to the .env.local file as shown below.
 Environment Variables
 In the .env.local file, add the following variables:
 
-*Clerk API Keys
+* Clerk API Keys
 ```
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
 CLERK_SECRET_KEY=<your_clerk_secret_key>
@@ -40,9 +40,11 @@ CLERK_SECRET_KEY=<your_clerk_secret_key>
 ```
 
 * Clerk Routes
+```
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-
+```
+```
 # Stream API Keys
 NEXT_PUBLIC_STREAM_API_KEY=<your_stream_api_key>
 STREAM_API_SECRET=<your_stream_api_secret>```
