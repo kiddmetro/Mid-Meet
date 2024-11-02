@@ -36,7 +36,7 @@ env
 Copy code
 * Clerk API Keys
 > NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
-`code` CLERK_SECRET_KEY=<your_clerk_secret_key>
+```code``` CLERK_SECRET_KEY=<your_clerk_secret_key>
 
 # Clerk Routes
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
