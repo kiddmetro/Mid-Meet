@@ -12,33 +12,21 @@ This project is a work in progress. Certain features may not be fully implemente
 * Video Conferencing: Reliable video calling feature integrated with Stream.
 
 # Tech Stack
-Next.js: React framework with server-side rendering and static site generation.
-Shadcn: Component library for building interfaces.
-Stream: API and SDK for handling video conferencing.
-Clerk: Authentication and user management.
-Installation
-Prerequisites
-Node.js (v14+)
-npm or yarn
-Steps
-Clone the repository:
+* Next.js: React framework with server-side rendering and static site generation.
+* Shadcn: Component library for building interfaces.
+* Stream: API and SDK for handling video conferencing.
+* Clerk: Authentication and user management.
 
-bash
-Copy code
+# Installation
+1. Clone the repository:
 git clone https://github.com/your-username/mid-meet.git
 cd mid-meet
-Install dependencies:
 
-bash
-Copy code
+2. Install dependencies:
 npm install
-# or
-yarn install
-Set up environment variables:
 
+3. Set up environment variables:
 Create a .env.local file in the root directory:
-bash
-Copy code
 touch .env.local
 Add the necessary environment variables to the .env.local file as shown below.
 Environment Variables
@@ -46,9 +34,9 @@ In the .env.local file, add the following variables:
 
 env
 Copy code
-# Clerk API Keys
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
-CLERK_SECRET_KEY=<your_clerk_secret_key>
+* Clerk API Keys
+`code` NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
+`code` CLERK_SECRET_KEY=<your_clerk_secret_key>
 
 # Clerk Routes
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
