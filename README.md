@@ -31,9 +31,10 @@ touch .env.local
 Add the necessary environment variables to the .env.local file as shown below.
 Environment Variables
 In the .env.local file, add the following variables:
-```*Clerk API Keys
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
-CLERK_SECRET_KEY=<your_clerk_secret_key>
+
+*Clerk API Keys
+```NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
+CLERK_SECRET_KEY=<your_clerk_secret_key>```
 
 * Clerk Routes
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
