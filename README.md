@@ -35,7 +35,7 @@ In the .env.local file, add the following variables:
 env
 Copy code
 * Clerk API Keys
-`code` NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
+> NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your_clerk_publishable_key>
 `code` CLERK_SECRET_KEY=<your_clerk_secret_key>
 
 # Clerk Routes
